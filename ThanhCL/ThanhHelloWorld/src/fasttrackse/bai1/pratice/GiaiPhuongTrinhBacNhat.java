@@ -1,5 +1,5 @@
 /************************************
- * Chương trình GPTBN 1 Ẩn ã + b = 0
+ * Chương trình GPTBN 1 Ẩn ax + b = 0
  * Author: Cao Lê Thành
  * Date: 28-May-2018
  ************************************/
@@ -20,11 +20,11 @@ public class GiaiPhuongTrinhBacNhat {
 		// Khai báo tham số A, B và biến X
 		int thamSoA, thamSoB;
 		double nghiemX;
-		
+
 		@SuppressWarnings("resource")
 		// Khai báo biến Scanner nhập dữ liệu từ bàn phím
 		Scanner myInput = new Scanner(System.in);
-		
+
 		System.out.println("-----------------------------------");
 		System.out.println("|  CHƯƠNG TRÌNH GPTBN ax + b = 0  |");
 		System.out.println("-----------------------------------");
@@ -32,10 +32,9 @@ public class GiaiPhuongTrinhBacNhat {
 		// Nhập giá trị tham số A, B từ bàn phím
 		System.out.print("Nhập tham số a = ");
 		thamSoA = myInput.nextInt();
-		
 		System.out.print("Nhập tham số b = ");
 		thamSoB = myInput.nextInt();
-		
+
 		if (thamSoA == 0) {
 			if (thamSoB == 0) {
 				// A = 0 & B = 0: Phương trình vô số nghiệm
@@ -46,7 +45,7 @@ public class GiaiPhuongTrinhBacNhat {
 			}
 		} else {
 			// A != 0: Phương trình có 1 nghiệm: x = -b/a
-			nghiemX = -thamSoB * 1.0/ thamSoA;
+			nghiemX = -thamSoB * 1.0 / thamSoA;
 			System.out.print("Phương trình " + thamSoA + "x + " + thamSoB + " = 0 CÓ NGHIỆM x = " + nghiemX);
 		}
 	}

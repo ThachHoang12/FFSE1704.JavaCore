@@ -35,7 +35,7 @@ Scanner myInput = new Scanner(System.in);
 					 System.out.println("Phương trình "+ A + "X^2" + "+"+B+"X"+ "+"+C +"=0"+" vô  nghiệm");
 				 }; 
 			 }else {
-				double X =C *1.0/ B;
+				double X =-C *1.0/ B;
 				 System.out.println("Phương trình "+ A + "X^2" + "+"+B +"X"+C+"=0 "+" có nghiệm X bằng "+X);
 			 }; 
 		 }else{
@@ -45,8 +45,8 @@ Scanner myInput = new Scanner(System.in);
 				 System.out.println("Phương trình "+ A + "X^2" + "+"+B +"X"+C+"=0 "+" có nghiệm kép X bằng "+X);
 			 }else {
 				 if(delta>0){
-					 double X1 =(-B + delta)/2*A;
-					 double X2 =(-B - delta)/2*A;
+					 double X1 =(-B + Math.sqrt( delta))*1.0/2*A;
+					 double X2 =(-B - Math.sqrt( delta))*1.0/2*A;
 					 System.out.println("Phương trình "+ A + "X^2" + "+"+B +"X"+C+"=0 "+" có nghiệm  X1 bằng  "+X1+"  và X2 bằng "+X2);
 				 }else {
 					 System.out.println("Phương trình"+ A + "X^2" + "+"+B+"X"+ "+"+C +"=0"+" vô  nghiệm");

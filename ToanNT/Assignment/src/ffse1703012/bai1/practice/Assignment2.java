@@ -15,15 +15,21 @@ public static Scanner print = new Scanner(System.in);
 		show(array);
 		int max = array[0];//khởi tạo biến max và min bằng 0
         int min = array[0];
+        int pmax = 0;
+        int pmin = 0;
         for (int i=0;i<n;i++)
         {
-            if(max<array[i])
+            if(max<array[i]) {
                 max=array[i];//nếu max nhỏ hơn phần tử nào trong mảng thì cho max bằng phần tử đó
-            if(min>array[i])
+                pmax = i;
+            }
+            if(min>array[i]) {
              min=array[i];//nếu min lớn hơn phần tử nào trong mảng thì cho min bằng phần tử đó
+             pmin = i;
+            }
         }
-        System.out.println("Phần tử lớn nhất của mảng là " + max);
-        System.out.println("Phần tử lớn nhỏ của mảng là " + min);
+        System.out.println("Phần tử lớn nhất của mảng là " + max +" và nằm ở vị trí thứ " +pmax);
+        System.out.println("Phần tử lớn nhỏ của mảng là " + min +" và nằm ở vị trí thứ " +pmin);
 
         
 	}

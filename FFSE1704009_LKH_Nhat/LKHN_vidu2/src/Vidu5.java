@@ -23,6 +23,8 @@ public class Vidu5 {
 
 		System.out.println("Nhập số cần kiểm tra: ");
 		n = myInput.nextInt();
+		
+//cách 1:		
 		int dem = 0;
 		int i = 2;
 		while (i < n / 2) {
@@ -40,6 +42,8 @@ public class Vidu5 {
 			System.out.println("số " + n + " là số nguyên tố");
 		}
 
+		
+//cách 2:		
 //		while (n < 1) {
 //			System.out.println("n phải lớn hơn hoặc bằng 1: ");
 //			n = myInput.nextInt();
@@ -60,5 +64,7 @@ public class Vidu5 {
 //			System.out.println("Số " + n + " không phải số nguyên tố");
 //			}
 //		}
+		
+
 	}
 }

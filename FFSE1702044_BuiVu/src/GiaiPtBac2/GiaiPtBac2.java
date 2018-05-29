@@ -1,3 +1,4 @@
+package GiaiPtBac2;
 
 import java.util.Scanner;
 public class GiaiPtBac2 {
@@ -24,20 +25,19 @@ public class GiaiPtBac2 {
 			}
 			return;
 		}
-		float delta = (b*b)-(4*a*c);
+		float detal = (b*b)-(4*a*c);
 		
 		//Kiểm tra delta
-		if(delta < 0) {
+		if(detal < 0) {
 			System.out.println("PT vô Nghiệm");
 			
-		}else if(delta == 0) {
+		}else if(detal == 0) {
 			x1=(-b/2*a);
 			System.out.println("PT có nghiệm kép x1=x2= " + x1);
 		}else {
-			x1= (-b + Math.sqrt(delta)/(2*a));
-			x2= (-b - Math.sqrt(delta)/(2*a));
-			System.out.println("PT có Nghiệm x1= "+ x1   +"  PT có Nghiệm x2= "+ x2);
-			
+			x1= (-b + Math.sqrt(detal)/(2*a));
+			x2= (-b - Math.sqrt(detal)/(2*a));
+			System.out.println("PT có Nghiệm x1= "+ x1 +"  PT có Nghiệm x2= "+ x2);
 		}
 		
 	}

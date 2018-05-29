@@ -1,5 +1,5 @@
 # Phan Pham Quang Dai JavaCore Working Folder
-### Thư mục làm việc của Thành
+### Thư mục làm việc của Quang Đại
 #### Danh sách bài tập Assignments
 1. [Hello World]
 (https://github.com/FASTTRACKSE/FFSE1704.JavaCore/blob/master/DaiPPQ/HelloWorld/src/fasttrackse/bai1/pratice/HelloWorld.java)

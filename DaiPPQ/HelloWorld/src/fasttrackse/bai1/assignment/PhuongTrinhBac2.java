@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class PhuongTrinhBac2 {
 
 	/**
-	 * 	Giải phương trình 2: ax2 + bx + c = 0
+	 * 	Giải phương trình bậc 2: ax2 + bx + c = 0
 	 * 	@author: Phan Phạm Quang Dai
 	 *	Date: 28/05/2018
 	 */
@@ -45,7 +45,7 @@ public class PhuongTrinhBac2 {
 				}
 			} else {
 				// a = 0 & b != 0: Phương trình có nghiệm x = -c / b
-				x = -c / b;
+				x = -c *1.0/ b;
 				System.out.print("Phương trình có nghiệm: x = ");
 				System.out.printf("%.3f %n", x);
 			}

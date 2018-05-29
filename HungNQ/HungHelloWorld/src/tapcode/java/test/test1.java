@@ -3,16 +3,29 @@
  */
 package tapcode.java.test;
 
+import java.util.Scanner;
 /**
  * @author Admin
  * 
  */
 public class test1 {
 	public static void main(String[] args) {
-		int a = 5; //Khai báo biến không khởi đầu giá trị
-		double b = 7*2;
-		double c = 4/2;
-		double d = a+b-c;
-		System.out.println("Tổng: " + d);
+		
+		System.out.println("******************");
+		System.out.println("***" + "Ax" + " + " + "B" + " = " + " 0 " + "***");
+		System.out.println("******************");
+		
+		int thamSoA, thamSoB;
+		double nghiemX;
+		Scanner myInput = new Scanner(System.in);
+		
+		System.out.print("Nhập tham số A = ");
+		thamSoA = myInput.nextInt();
+		
+		System.out.print("Nhập tham số B = ");
+		thamSoB = myInput.nextInt();
+		
+		nghiemX = -thamSoB*1.0/thamSoA;
+		System.out.print("Kết quả của bạn là: " + nghiemX);
 	}
 }

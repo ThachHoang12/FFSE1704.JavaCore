@@ -38,16 +38,14 @@ public class SoNguyenTo {
 	}
 	
 	public static int songuyento(int n) {
-		System.out.print("Số nguyên n(" + n + ") chia hết cho các số: ");
 		int dem = 0;
-		for (int i = 1; i <= n; i ++) {	// i chạy từ 1 đến số nguyên a
+		for (int i = 1; i <= n/2; i ++) {	// i chạy từ 1 đến số nguyên a
 			if (n % i == 0) {	// Mổi lần a chia hết cho i thì tăng biến dem lên 1
 				dem++;
-				System.out.print(i + ", ");
 			}
 		}
 		System.out.println();
-		if(dem == 2) {
+		if(dem == 1) {
 			return 1;
 		} else return 0;
 	}

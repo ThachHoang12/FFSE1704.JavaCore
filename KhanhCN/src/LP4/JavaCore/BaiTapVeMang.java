@@ -1,7 +1,7 @@
 /***********************
   Bài tập Assignment 3
  Prog : BÀI TẬP VỀ MẢNG 
- Outhor : CAO NGỌC KH�?NH
+ Outhor : CAO NGỌC KHÁNH
  Date : 29-May-2018
  
 ************************/
@@ -53,7 +53,7 @@ public class BaiTapVeMang {
 		System.out.println("           2/     ******************");
 		System.out.println("        + Mang N có  giá trị lớn nhất là :" + max);
 		System.out.println("                ******************");
-		System.out.println("        + Mảng N có giá trị nh�? nhất là : " + min);
+		System.out.println("        + Mảng N có giá trị nhỏ nhất là : " + min);
 		System.out.println("           3/      ******************");
 		System.out.println("        + Phần tử " + max + " ở vị trí thứ " + vitriMax);
 		System.out.println("                ******************");

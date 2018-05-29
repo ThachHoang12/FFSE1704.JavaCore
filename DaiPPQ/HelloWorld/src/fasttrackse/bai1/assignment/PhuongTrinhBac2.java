@@ -4,7 +4,6 @@
 package fasttrackse.bai1.assignment;
 
 import java.util.Scanner;
-import java.text.DecimalFormat;
 /**
  * @author QuangDai
  *

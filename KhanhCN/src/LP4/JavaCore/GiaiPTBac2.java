@@ -1,4 +1,4 @@
-package bai1_java;
+package LP4.JavaCore;
 
 import java.util.Scanner;
 
@@ -22,7 +22,7 @@ import java.util.Scanner;
  --------------
   x2 = (-b + sqrt(delta))/(2a)
  
- * */
+ * */ 
 public class GiaiPTBac2 {
 	public static void main(String[]args) {
 		Scanner nhap = new Scanner(System.in);

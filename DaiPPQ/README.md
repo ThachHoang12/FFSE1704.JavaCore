@@ -9,3 +9,9 @@
 
 3. [Giải Phương Trình Bậc 2]
 (https://github.com/FASTTRACKSE/FFSE1704.JavaCore/blob/master/DaiPPQ/HelloWorld/src/fasttrackse/bai1/assignment/PhuongTrinhBac2.java)
+
+4. [Số Nguyên Tố]
+(https://github.com/FASTTRACKSE/FFSE1704.JavaCore/blob/master/DaiPPQ/HelloWorld/src/fasttrackse/bai1/pratice/SoNguyenTo.java)
+
+5. [ Assignment 3]
+(https://github.com/FASTTRACKSE/FFSE1704.JavaCore/blob/master/DaiPPQ/HelloWorld/src/fasttrackse/bai1/assignment/MangSoNguyen.java)

@@ -13,10 +13,10 @@ public class Asm_02 {
 		int n;
 		Scanner N = new Scanner(System.in);
 
-		do {
+		
 			System.out.println("Nhập vào số phần tử của mảng: ");
 			n = N.nextInt();
-		} while (n < 0);
+		
 
 		// khởi tạo và cấp phát bộ nhớ cho mảng
 		int array[] = new int[n];

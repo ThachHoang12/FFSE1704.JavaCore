@@ -1,4 +1,4 @@
-package bai1_java;
+package LP4.JavaCore;
 
 import java.util.Scanner;
 

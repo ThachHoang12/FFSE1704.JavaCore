@@ -23,25 +23,42 @@ public class Vidu5 {
 
 		System.out.println("Nhập số cần kiểm tra: ");
 		n = myInput.nextInt();
-		while (n < 1) {
-			System.out.println("n phải lớn hơn hoặc bằng 1: ");
-			n = myInput.nextInt();
-		}
-
 		int dem = 0;
-		for (int i = 1; i <= n; i++) {
+		int i = 2;
+		while (i < n / 2) {
 			if (n % i == 0) {
 				dem++;
+				break;
 			}
+			i++;
+
 		}
-		if (dem == 2) {
-			System.out.println("Số " + n + " là số nguyên tố");
+		;
+		if (dem == 1) {
+			System.out.println("số " + n + " không phải số nguyên tố");
 		} else {
-			if(dem == 1) {
-				System.out.println("Số 1 là số đặc biệt");
-				}else {
-			System.out.println("Số " + n + " không phải số nguyên tố");
-			}
+			System.out.println("số " + n + " là số nguyên tố");
 		}
+
+//		while (n < 1) {
+//			System.out.println("n phải lớn hơn hoặc bằng 1: ");
+//			n = myInput.nextInt();
+//		}
+//
+//		int dem = 0;
+//		for (int i = 1; i <= n; i++) {
+//			if (n % i == 0) {
+//				dem++;
+//			}
+//		}
+//		if (dem == 2) {
+//			System.out.println("Số " + n + " là số nguyên tố");
+//		} else {
+//			if(dem == 1) {
+//				System.out.println("Số 1 là số đặc biệt");
+//				}else {
+//			System.out.println("Số " + n + " không phải số nguyên tố");
+//			}
+//		}
 	}
 }

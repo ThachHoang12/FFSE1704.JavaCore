@@ -1,18 +1,12 @@
-/**
- * LEE KHAR HOONG NHAATJ------ASM_JAVA_02
- **/
+/************************************************* 
+ * Assignment02_in_mang
+ * @author: LEE KHAR HOONG NHAATJ------ASM_JAVA_02
+ *Date: 29-05-2018
+ *************************************************/
 
-/**
- * @author Support
- *
- */
 import java.util.Scanner;
 
 public class Asm_02 {
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		int n;

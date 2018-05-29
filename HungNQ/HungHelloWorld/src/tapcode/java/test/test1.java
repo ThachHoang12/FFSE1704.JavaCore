@@ -5,7 +5,7 @@ package tapcode.java.test;
 
 /**
  * @author Admin
- *
+ * 
  */
 public class test1 {
 	public static void main(String[] args) {

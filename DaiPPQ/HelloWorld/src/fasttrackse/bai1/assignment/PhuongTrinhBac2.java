@@ -64,12 +64,12 @@ public class PhuongTrinhBac2 {
 				} else {
 					// Phương trình có 2 nghiệm x = (-b +/- căn delta)/2a
 					x1 =(-b + Math.sqrt(delta)) / (2*a);
-		            x2 =(-b - Math.sqrt(delta)) / (2*a);
-		            System.out.println("Phương trình có 2 nghiệm là");
-		            System.out.print("x1 = ");
-		            System.out.printf("%.3f %n", x1);
-		            System.out.print("x2 = ");
-		            System.out.printf("%.3f %n", x2);
+					x2 =(-b - Math.sqrt(delta)) / (2*a);
+					System.out.println("Phương trình có 2 nghiệm là");
+					System.out.print("x1 = ");
+					System.out.printf("%.3f %n", x1);
+					System.out.print("x2 = ");
+					System.out.printf("%.3f %n", x2);
 				}
 			}
 		}

@@ -16,29 +16,37 @@ public class SoNguyenTo {
 	 *	Date: 29/05/2018
 	 */
 	public static void main(String[] args) {
-		int a;
-		int dem = 0;
+		int n;
 		@SuppressWarnings("resource")
 		// Khai báo biến Scanner nhập dữ liệu từ bàn phím
 		Scanner myInput = new Scanner(System.in);
 		
 		// Nhập số nguyên từ bàn phím
-		System.out.print("Nhập số nguyên a: ");
-		a = myInput.nextInt();
+		System.out.print("Nhập số nguyên n: ");
+		n = myInput.nextInt();
 		
-		for (int i = 1; i <= a; i ++) {	// i chạy từ 1 đến số nguyên a
-			if (a % i == 0) {	// Mổi lần a chia hết cho i thì tăng biến dem lên 1
-				dem = dem +1;
-				System.out.println("Số nguyên a (" + a + ") chia hết cho " + i);
-			}
-		}
-		
-		if (dem > 2) { 
-			System.out.println("Số nguyên a (" + a + ") không phải là số nguyên tố");
+		if (n > 0) { // Số nguyên tố là số tự nhiên lớn hơn 1
+			if (songuyento(n) == 1) { 
+				System.out.println("Số nguyên n(" + n + ") là số nguyên tố");
+			} else {
+				System.out.println("Số nguyên n(" + n + ") không phải là số nguyên tố");
+			}	
 		} else {
-			System.out.println("Số nguyên a (" + a + ") là số nguyên tố");
+			System.out.println("Yêu cầu nhập số nguyên dương");
 		}
 
 	}
-
+	
+	public static int songuyento(int n) {
+		int dem = 0;
+		for (int i = 1; i <= n/2; i ++) {	// i chạy từ 1 đến số nguyên a
+			if (n % i == 0) {	// Mổi lần a chia hết cho i thì tăng biến dem lên 1
+				dem++;
+			}
+		}
+		System.out.println();
+		if(dem == 1) {
+			return 1;
+		} else return 0;
+	}
 }

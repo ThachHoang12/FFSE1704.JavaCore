@@ -26,14 +26,10 @@ public class SoNguyenTo {
 		n = myInput.nextInt();
 		
 		if (n > 0) { // Số nguyên tố là số tự nhiên lớn hơn 1
-			if (n == 1) {
+			if (songuyento(n) == 1) { 
 				System.out.println("Số nguyên n(" + n + ") là số nguyên tố");
 			} else {
-				if (songuyento(n) == 1) { 
-					System.out.println("Số nguyên n(" + n + ") là số nguyên tố");
-				} else {
-					System.out.println("Số nguyên n(" + n + ") không phải là số nguyên tố");
-				}
+				System.out.println("Số nguyên n(" + n + ") không phải là số nguyên tố");
 			}	
 		} else {
 			System.out.println("Yêu cầu nhập số nguyên dương");

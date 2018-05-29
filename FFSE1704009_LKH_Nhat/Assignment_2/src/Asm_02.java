@@ -34,6 +34,7 @@ public class Asm_02 {
 			System.out.print(array[i] + " ");
 		}
 		System.out.println(" ");
+		//Tìm min max và vị trí
 		int max = array[0];
 		int min = array[0];
 		int X = 0;

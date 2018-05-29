@@ -9,18 +9,16 @@ import java.util.Scanner;
 
 public class Asm_02 {
 	public static void main(String[] args) {
-
+		
+		//Khai báo
 		int n;
 		Scanner N = new Scanner(System.in);
-
-		
-			System.out.println("Nhập vào số phần tử của mảng: ");
-			n = N.nextInt();
-		
-
-		// khởi tạo và cấp phát bộ nhớ cho mảng
+		System.out.println("Nhập vào số phần tử của mảng: ");
+		n = N.nextInt();
+		//-- khởi tạo và cấp phát bộ nhớ cho mảng
 		int array[] = new int[n];
-
+		
+		//phần thân trang code
 		System.out.println("Nhập các phần tử cho mảng: ");
 		for (int i = 0; i < n; i++) {
 			int j = i + 1;
@@ -28,13 +26,13 @@ public class Asm_02 {
 			array[i] = N.nextInt();
 		}
 
-		// Hiển thị mảng vừa nhập
+		//-- Hiển thị mảng vừa nhập
 		System.out.println("Mảng đã nhập: ");
 		for (int i = 0; i < n; i++) {
 			System.out.print(array[i] + " ");
 		}
 		System.out.println(" ");
-		//Tìm min max và vị trí
+		// --Tìm min max và vị trí
 		int max = array[0];
 		int min = array[0];
 		int X = 0;

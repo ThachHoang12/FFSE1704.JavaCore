@@ -27,19 +27,16 @@ public class Vidu5 {
 //cách 1:		
 		int dem = 0;
 		int i = 2;
-		while (i < n / 2) {
-			if (n % i == 0) {
-				dem++;
-				break;
-			}
+		while (i < n &&(n%i!=0)) {
+			
 			i++;
 
 		}
 		;
-		if (dem == 1) {
-			System.out.println("số " + n + " không phải số nguyên tố");
-		} else {
+		if (i == n) {
 			System.out.println("số " + n + " là số nguyên tố");
+		} else {
+			System.out.println("số " + n + " không phải số nguyên tố");
 		}
 
 		
